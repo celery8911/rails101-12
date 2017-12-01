@@ -19,17 +19,27 @@ before_action :authenticate_user!, :only => [:new, :create]
      end
    end
 
-    # def edit
-    #   @group = Group.find(params[:group_id])
-    #   @post = Post.find(params[:id])
-    # end
+    def edit
+      @group = Group.find(params[:group_id])
+      @post = Post.find(params[:id])
+    end
 
-    # def update
-    #   @group = Group.find(parmas[:group_id])
-    #   @post = Post.find(params[:id])
-    #   @post.group = @group
-    #   if @post.update
-    #     redirect_to
+    def update
+      # @group = Group.find(params[:group_id])
+      @post = Post.find(params[:id])
+
+      if @post.update(post_params)
+        redirect_to account_posts_path, notice: "Updated Success!"
+      end
+    end
+
+    def destroy
+      # @group = Group.find(params[:group_id])
+      @post = Post.find(params[:id])
+      @post.destroy
+      redirect_to account_posts_path, alert: "Posts deleted!"
+    end
+
 private
   def post_params
    params.require(:post).permit(:content)
