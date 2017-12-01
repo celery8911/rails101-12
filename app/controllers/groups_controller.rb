@@ -11,6 +11,7 @@ before_action :find_and_check_permission, only: [:edit, :update, :destroy]
 
   def show
     @group = Group.find(params[:id])
+    @posts = @group.posts
   end
 
   def create
@@ -28,7 +29,7 @@ before_action :find_and_check_permission, only: [:edit, :update, :destroy]
   end
 
   def update
- 
+
   if @group.update(group_params)
     redirect_to groups_path, notice: "Updated Success!"
   else
