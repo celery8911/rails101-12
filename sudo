@@ -1,0 +1,573 @@
+  PID   TT  STAT      TIME COMMAND
+    1   ??  Ss    54:17.76 /sbin/launchd
+   46   ??  Ss     0:34.10 /usr/sbin/syslogd
+   47   ??  Ss     7:05.65 /usr/libexec/UserEventAgent (System)
+   49   ??  Ss     1:22.19 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+   50   ??  Ss     1:40.21 /usr/libexec/kextd
+   51   ??  Ss    13:10.66 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+   56   ??  Ss     0:03.85 /System/Library/CoreServices/appleeventsd --server
+   57   ??  Ss    42:25.16 /usr/libexec/configd
+   58   ??  Ss     2:43.45 /System/Library/CoreServices/powerd.bundle/powerd
+   66   ??  Ss     2:11.89 /usr/libexec/logd
+   70   ??  Ss     3:44.38 /usr/libexec/airportd
+   72   ??  SNs    0:04.55 /usr/libexec/warmd
+   73   ??  Ss    29:03.08 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+   81   ??  Ss     0:08.49 /usr/libexec/diskarbitrationd
+   89   ??  Ss     4:09.74 /usr/libexec/opendirectoryd
+   90   ??  Ss     0:06.77 /usr/sbin/wirelessproxd
+   92   ??  Ss     1:44.54 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+   93   ??  Ss     0:01.08 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated
+   94   ??  Ss    21:39.85 /System/Library/CoreServices/launchservicesd
+   95   ??  Ss     0:14.69 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+   96   ??  Ss     0:32.26 /usr/sbin/securityd -i
+   98   ??  Ss     1:20.64 /usr/libexec/locationd
+  100   ??  Ss     2:05.43 /usr/libexec/DuetHeuristic-BM
+  101   ??  Ss     0:01.61 /usr/libexec/displaypolicyd -k 1
+  102   ??  Ss     0:24.56 /usr/sbin/blued
+  103   ??  Ss     0:00.15 autofsd
+  105   ??  Ss     0:00.71 /System/Library/PrivateFrameworks/Heimdal.framework/Helpers/kdc
+  107   ??  Ss     0:04.66 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+  108   ??  Ss     5:52.36 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+  109   ??  Ss     0:00.87 /System/Library/CoreServices/logind
+  110   ??  Ss     0:00.02 /usr/sbin/KernelEventAgent
+  112   ??  Ss   358:22.07 /usr/libexec/hidd
+  113   ??  Ss     0:03.82 /usr/libexec/corebrightnessd --launchd
+  114   ??  Ss     0:07.17 /usr/libexec/AirPlayXPCHelper
+  115   ??  Ss     2:23.46 /usr/sbin/notifyd
+  117   ??  Ss     0:31.97 /usr/sbin/distnoted daemon
+  118   ??  Ss     0:54.38 /usr/sbin/cfprefsd daemon
+  120   ??  Ss     0:21.14 /System/Library/CoreServices/coreservicesd
+  121   ??  Ss     0:05.34 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+  129   ??  Ss     0:00.15 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd
+  140   ??  Ss   986:21.89 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+  148   ??  Ss     0:08.56 /usr/libexec/lsd runAsRoot
+  154   ??  Ss     1:18.72 /usr/sbin/mDNSResponder
+  155   ??  Ss    25:02.90 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  158   ??  Ss     1:10.98 /usr/sbin/mDNSResponderHelper
+  163   ??  Ss     0:01.63 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+  169   ??  Ss   459:09.76 /usr/sbin/coreaudiod
+  188   ??  Ss     0:00.84 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+  193   ??  Ss     0:40.68 /usr/libexec/nsurlsessiond --privileged
+  194   ??  Ss     1:11.70 /usr/sbin/ntpd -c /private/etc/ntp-restrict.conf -n -g -p /var/run/ntpd.pid -f /var/db/ntp.drift
+  197   ??  Ss     0:00.80 /usr/libexec/corestoraged
+  198   ??  Ss     0:03.44 /usr/libexec/usbd
+  199   ??  Ss     0:00.73 /usr/libexec/thermald
+  201   ??  Ss     0:02.16 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+  227   ??  Ss     2:42.59 /usr/libexec/symptomsd
+  247   ??  Ss     0:02.28 /System/Library/CoreServices/sharedfilelistd --enable-legacy-services
+  248   ??  Ss     1:22.87 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+  249   ??  Ss     0:16.70 /usr/libexec/syspolicyd
+  250   ??  Ss     0:00.29 /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/suhelperd
+  259   ??  Ss     0:14.65 /usr/libexec/watchdogd
+  261   ??  Ss     0:13.15 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+  264   ??  Ss     0:05.53 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+  271   ??  S      0:00.07 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdflagwriter
+  278   ??  S     16:39.89 /usr/sbin/distnoted agent
+  279   ??  S      1:30.30 /usr/libexec/lsd
+  280   ??  S      0:01.21 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+  281   ??  S      0:33.87 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+  294   ??  Ss     0:00.67 /usr/libexec/securityd_service
+  297   ??  S      1:27.73 /usr/libexec/UserEventAgent (Aqua)
+  301   ??  S      2:23.85 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+  304   ??  S     12:16.47 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+  307   ??  R     25:52.98 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+  311   ??  S      0:05.04 /usr/libexec/pboard
+  313   ??  S      0:24.45 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+  319   ??  S      0:19.32 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+  320   ??  S      0:04.49 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+  323   ??  Ss     0:00.88 /System/Library/CoreServices/backupd.bundle/Contents/Resources/TMCacheDelete
+  326   ??  S      0:14.12 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+  327   ??  Ss     0:09.78 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd
+  337   ??  S      0:26.02 /System/Library/CoreServices/sharedfilelistd
+  340   ??  S      4:15.52 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+  346   ??  S      1:00.78 /Applications/iTunes.app/Contents/MacOS/iTunesHelper.app/Contents/MacOS/iTunesHelper
+  349   ??  S      0:33.37 /usr/sbin/usernoted
+  350   ??  S      1:08.94 /usr/libexec/nsurlsessiond
+  353   ??  S      0:52.85 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+  354   ??  S      2:13.32 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+  355   ??  Ss     1:33.95 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+  358   ??  Ss     0:12.48 /usr/sbin/filecoordinationd
+  367   ??  S      2:00.28 /usr/libexec/sharingd
+  372   ??  S      2:31.40 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+  382   ??  S      1:15.48 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+  383   ??  S      0:49.82 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+  385   ??  Ss     1:45.03 /System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension
+  388   ??  S      1:20.16 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd
+  399   ??  S      0:01.62 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+  404   ??  S      3:02.08 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+  406   ??  S      0:02.42 /System/Library/Image Capture/Support/icdd
+  411   ??  S      0:00.81 /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond
+  412   ??  S      0:05.13 /usr/local/opt/postgresql/bin/postgres -D /usr/local/var/postgres
+  413   ??  S      1:59.32 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+  414   ??  S      0:04.23 /System/Library/CoreServices/cloudpaird
+  416   ??  S      1:38.08 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent
+  418   ??  S      1:29.10 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+  419   ??  S      0:19.48 /System/Library/CoreServices/diagnostics_agent
+  421   ??  S      0:12.40 /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+  425   ??  Ss     0:10.80 /usr/libexec/taskgated -s
+  426   ??  S      1:37.83 /System/Library/CoreServices/Menu Extras/TextInput.menu/Contents/SharedSupport/TISwitcher.app/Contents/MacOS/TISwitcher
+  443   ??  Ss     0:00.56 postgres: checkpointer process     
+  444   ??  Ss     0:13.04 postgres: writer process     
+  445   ??  Ss     0:12.77 postgres: wal writer process     
+  446   ??  Ss     0:09.82 postgres: autovacuum launcher process     
+  447   ??  Ss     0:23.89 postgres: stats collector process     
+  448   ??  S      1:34.16 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdflagwriter
+  458   ??  Ss     0:00.05 /Library/PrivilegedHelperTools/com.kingaxis.vpncloud.VPNCloudHelper
+  460   ??  Ss     0:03.75 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+  461   ??  S      0:00.98 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent
+  464   ??  Ss     0:03.24 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+  466   ??  S      0:00.39 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy
+  475   ??  S      1:39.60 /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent
+  527   ??  S      4:29.95 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+  543   ??  S     20:53.36 /private/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/AppTranslocation/685B6594-4232-45B7-BD40-7BDA8E841A73/d/Offline Pages Pro.app/Contents/MacOS/Offline Pages Pro
+  563   ??  Ss     0:02.01 /System/Library/CoreServices/SubmitDiagInfo server-init
+  586   ??  R     68:58.54 /Applications/iTerm.app/Contents/MacOS/iTerm2
+  734   ??  S      2:39.38 /Applications/ShadowsocksX-NG.app/Contents/MacOS/ShadowsocksX-NG
+  743   ??  S      0:00.01 /Users/celery/Library/Application Support/ShadowsocksX-NG/privoxy --no-daemon privoxy.config
+  818   ??  S      0:05.49 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+  864   ??  S      0:04.62 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeinappd
+ 1376   ??  S      0:00.70 /Applications/Atom.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --database=/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/Atom Crashes --metrics-dir=/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/Atom Crashes --url=https://crashreporter.atom.io --handshake-fd=40
+ 1553   ??  Ss     6:17.16 /Library/CoreMediaIO/Plug-Ins/DAL/AppleCamera.plugin/Contents/Resources/AppleCameraAssistant
+ 1621   ??  S      0:00.02 /bin/bash /Applications/Atom.app/Contents/Resources/app/apm/bin/apm install emmet@2.4.3 --json --no-color
+ 1629   ??  S      0:01.01 apm     
+ 1630   ??  S      0:00.61 node-gyp       
+ 1648   ??  S      0:00.01 /bin/bash /Applications/Atom.app/Contents/Resources/app/apm/bin/apm install emmet@2.4.3 --json --no-color
+ 1656   ??  S      0:01.11 apm     
+ 1657   ??  S      0:00.50 node-gyp       
+ 1713   ??  S      0:00.96 spring server | rails107 | started 861 hours ago   
+ 2140   ??  S      0:00.56 /usr/libexec/USBAgent
+ 2811   ??  S      0:01.40 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+ 3880   ??  S      0:00.01 /bin/bash /Applications/Atom.app/Contents/Resources/app/apm/bin/apm install emmet@2.4.3 --json --no-color
+ 3888   ??  S      0:00.98 apm     
+ 3889   ??  S      0:00.58 node-gyp       
+ 4576   ??  S      0:00.64 /Applications/Atom.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --database=/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/Atom Crashes --metrics-dir=/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/Atom Crashes --url=https://crashreporter.atom.io --handshake-fd=39
+ 4657   ??  S      0:00.01 /bin/bash /Applications/Atom.app/Contents/Resources/app/apm/bin/apm search emmet --json --packages --no-color
+ 4665   ??  S      0:00.68 apm      
+ 4675   ??  S      0:00.01 /bin/bash /Applications/Atom.app/Contents/Resources/app/apm/bin/apm search emmet --json --packages --no-color
+ 4683   ??  S      0:00.96 apm      
+ 4802   ??  S      0:00.01 /bin/bash /Applications/Atom.app/Contents/Resources/app/apm/bin/apm outdated --json --compatible 1.21.1 --no-color
+ 4810   ??  S      0:01.10 apm      
+ 5930   ??  S      0:01.02 spring server | rails108 | started 841 hours ago   
+ 8538   ??  Ss     0:04.79 spring app    | rails108 | started 831 hours ago | development mode      
+ 8540   ??  S      0:24.88 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.2 /Users/celery/rails108
+ 8541   ??  S      0:27.19 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails108/config/locales
+ 8542   ??  S      0:25.88 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails108/db
+ 8543   ??  S      0:27.96 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails108/test/mailers
+ 8544   ??  S      0:23.10 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails108/app/assets
+ 8545   ??  S      0:26.83 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails108/app/channels
+ 8546   ??  S      0:28.59 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails108/app/controllers
+ 8547   ??  S      0:23.60 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails108/app/helpers
+ 8548   ??  S      0:23.24 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails108/app/jobs
+ 8549   ??  S      0:22.98 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails108/app/mailers
+ 8550   ??  S      0:21.97 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails108/app/models
+ 8968   ??  Ss     0:00.31 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeinstalld
+ 9473   ??  S      1:23.70 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid
+12035   ??  S      0:00.96 spring server | rails109 | started 798 hours ago   
+13892   ??  Ss     0:04.33 spring app    | rails109 | started 795 hours ago | development mode      
+13893   ??  S      0:21.46 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.2 /Users/celery/rails109
+13894   ??  S      0:21.86 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails109/config/locales
+13895   ??  S      0:22.26 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails109/db
+13896   ??  S      0:24.68 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails109/test/mailers
+13897   ??  S      0:23.44 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails109/app/assets
+13898   ??  S      0:23.96 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails109/app/channels
+13899   ??  S      0:23.84 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails109/app/controllers
+13900   ??  S      0:23.62 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails109/app/helpers
+13901   ??  S      0:21.04 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails109/app/jobs
+13902   ??  S      0:22.55 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails109/app/mailers
+13903   ??  S      0:20.95 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails109/app/models
+15386   ??  Ss     1:04.89 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+17725   ??  Ss     0:04.18 spring app    | rails107 | started 789 hours ago | development mode      
+17727   ??  S      0:20.12 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.2 /Users/celery/rails107
+17728   ??  S      0:21.71 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails107/config/locales
+17729   ??  S      0:21.02 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails107/db
+17730   ??  S      0:25.22 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails107/app/assets
+17731   ??  S      0:23.08 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails107/app/helpers
+17732   ??  S      0:22.82 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails107/app/controllers
+17733   ??  S      0:21.88 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails107/app/jobs
+17734   ??  S      0:23.12 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails107/app/mailers
+17735   ??  S      0:22.58 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails107/app/models
+17736   ??  S      0:22.24 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails107/test/mailers
+17737   ??  S      0:23.10 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails107/app/channels
+19268   ??  R     13:11.63 /Applications/BaiduNetdisk_mac.app/Contents/MacOS/BaiduNetdisk_mac
+19661   ??  S      0:00.38 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
+20203   ??  R    172:19.29 /Applications/Typora.app/Contents/MacOS/Typora
+21933   ??  S      0:01.00 spring server | job-listing | started 727 hours ago   
+22929   ??  S      2:27.26 /Applications/iTunes.app/Contents/MacOS/iTunes
+22930   ??  Ss     0:00.02 /System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fpsd
+22935   ??  S      0:00.78 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/Current/AppleMobileDeviceHelper.app/Contents/MacOS/AppleMobileDeviceHelper --pipe 15 48
+23907   ??  S      6:21.44 /Applications/Snip.app/Contents/MacOS/Snip
+25931   ??  S      1:15.63 /Applications/Maps.app/Contents/MacOS/Maps
+28959   ??  Ss     0:07.02 spring app    | job-listing | started 648 hours ago | development mode      
+28960   ??  S      0:00.18 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.2 /Users/celery/job2/job-listing
+28961   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0/lib/active_support/locale
+28962   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/activemodel-5.0.0/lib/active_model/locale
+28963   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0/lib/active_record/locale
+28964   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0/lib/action_view/locale
+28965   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/devise-4.3.0/config/locales
+28966   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/responders-2.4.0/lib/responders/locales
+28967   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/job2/job-listing/config/locales
+28968   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/web-console-3.3.1/lib/web_console/locales
+28969   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/actioncable-5.0.0
+28970   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/coffee-rails-4.2.1
+28971   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/jquery-rails-4.1.1
+28972   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/turbolinks-5.0.0
+28973   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7
+28974   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/font-awesome-rails-4.7.0.2
+28975   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/job2/job-listing/db
+28976   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/job2/job-listing/app/channels
+28977   ??  S      0:00.02 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/job2/job-listing/app/assets
+28978   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/job2/job-listing/app/controllers
+28979   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/job2/job-listing/app/helpers
+28980   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/job2/job-listing/app/jobs
+28981   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/job2/job-listing/app/mailers
+28982   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/job2/job-listing/app/models
+28983   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/job2/job-listing/app/uploaders
+28984   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/font-awesome-rails-4.7.0.2/app/assets
+28985   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/font-awesome-rails-4.7.0.2/app/helpers
+28986   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/controllers
+28987   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/helpers
+28988   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/mailers
+28989   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/job2/job-listing/test/mailers
+29687   ??  S      1:22.27 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+29945   ??  S      3:15.96 /Applications/Mail.app/Contents/MacOS/Mail
+30035   ??  Ss    13:15.11 /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd
+30037   ??  S      5:12.10 /usr/libexec/trustd --agent
+30047   ??  S      2:00.59 /usr/sbin/cfprefsd agent
+30048   ??  S      0:04.89 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+30050   ??  S      0:43.98 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+30054   ??  S      1:22.77 /usr/libexec/nsurlstoraged
+30061   ??  S      0:03.16 /usr/sbin/distnoted agent
+30064   ??  Ss     3:54.50 /usr/libexec/coreduetd
+30073   ??  S      1:52.23 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd
+30083   ??  S      0:32.47 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd
+30086   ??  Ss     0:02.79 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomoments.xpc/Contents/MacOS/com.apple.photomoments
+30226   ??  S      0:02.36 /usr/libexec/keyboardservicesd
+32323   ??  Rs     3:01.47 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/DocumentPopoverViewService.xpc/Contents/MacOS/DocumentPopoverViewService
+36471   ??  S      0:00.02 /usr/bin/ssh-agent -l
+41039   ??  S      0:00.42 /Applications/Atom.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --database=/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/Atom Crashes --metrics-dir=/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/Atom Crashes --url=https://crashreporter.atom.io --handshake-fd=39
+41188   ??  S      0:00.01 /bin/bash /Applications/Atom.app/Contents/Resources/app/apm/bin/apm install emmet-snippets-compatibility@1.0.6 --json --no-color
+41205   ??  S      0:00.95 apm     
+41206   ??  S      0:00.89 node-gyp       
+41207   ??  S      0:00.01 /bin/bash /Applications/Atom.app/Contents/Resources/app/apm/bin/apm install emmet-snippets-compatibility@1.0.6 --json --no-color
+41224   ??  S      0:00.93 apm     
+41225   ??  S      0:00.64 node-gyp       
+41292   ??  S      0:00.88 spring server | jdstore | started 528 hours ago   
+45163   ??  Ss     0:21.21 /Applications/TeamViewer.app/Contents/MacOS/TeamViewer_Service -Module Full
+45165   ??  S     22:00.05 /Applications/TeamViewer.app/Contents/Helpers/TeamViewer_Desktop -RunAsAgent YES -Module Full
+45167   ??  S      1:38.16 /Applications/TeamViewer.app/Contents/MacOS/TeamViewer -RunAsAgent YES
+45286   ??  S      0:00.48 /Applications/Atom.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --database=/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/Atom Crashes --metrics-dir=/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/Atom Crashes --url=https://crashreporter.atom.io --handshake-fd=39
+45289   ??  S      0:00.01 /bin/bash /Applications/Atom.app/Contents/Resources/app/apm/bin/apm outdated --json --compatible 1.22.0 --no-color
+45306   ??  S      0:01.61 apm      
+46322   ??  Ss     3:55.47 /System/Library/Frameworks/Foundation.framework/Versions/C/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+48725   ??  Ss     0:05.41 spring app    | jdstore | started 463 hours ago | development mode      
+48727   ??  S      0:00.06 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.2 /Users/celery/jdstorenew/jdstore
+48728   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0/lib/active_support/locale
+48729   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/activemodel-5.0.0/lib/active_model/locale
+48730   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0/lib/active_record/locale
+48731   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/actionview-5.0.0/lib/action_view/locale
+48732   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/responders-2.4.0/lib/responders/locales
+48733   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/devise-4.3.0/config/locales
+48734   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/jdstorenew/jdstore/config/locales
+48735   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/web-console-3.3.1/lib/web_console/locales
+48736   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/actioncable-5.0.0
+48737   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/jquery-rails-4.1.1
+48738   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/coffee-rails-4.2.1
+48739   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/turbolinks-5.0.0
+48740   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7
+48741   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/font-awesome-rails-4.7.0.2
+48742   ??  S      0:00.02 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/jdstorenew/jdstore/db
+48743   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/jdstorenew/jdstore/app/assets
+48744   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/jdstorenew/jdstore/app/channels
+48745   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/jdstorenew/jdstore/app/controllers
+48746   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/jdstorenew/jdstore/app/helpers
+48747   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/jdstorenew/jdstore/app/jobs
+48748   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/jdstorenew/jdstore/app/mailers
+48749   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/jdstorenew/jdstore/app/models
+48750   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/jdstorenew/jdstore/app/uploaders
+48751   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/font-awesome-rails-4.7.0.2/app/assets
+48752   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/font-awesome-rails-4.7.0.2/app/helpers
+48753   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/controllers
+48754   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/helpers
+48755   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/.rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/mailers
+48756   ??  S      0:00.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.9.7/bin/fsevent_watch --latency 0.1 /Users/celery/jdstorenew/jdstore/test/mailers/previews
+49415   ??  S     41:58.78 /Applications/网易有道词典.app/Contents/MacOS/网易有道词典
+49532   ??  S    241:49.90 /Applications/zoom.us.app/Contents/MacOS/zoom.us
+54518   ??  Ss     0:00.73 /usr/libexec/dprivacyd
+57178   ??  S      0:00.65 spring server | parking-app | started 337 hours ago   
+59274   ??  S     26:02.47 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+59275   ??  S      1:20.80 /Library/Input Methods/SogouInput.app/Contents/SogouServices
+59277   ??  Ss     0:02.45 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/WiFiProxy
+59279   ??  Ss     0:00.58 /usr/libexec/diskmanagementd
+59281   ??  S     29:35.53 /Library/Input Methods/SogouInput.app/Contents/MacOS/SogouInput
+60051   ??  Ss     0:03.33 spring app    | parking-app | started 314 hours ago | development mode      
+60053   ??  S      0:09.18 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.2 /Users/celery/railsbridge/parking-app
+60054   ??  S      0:09.27 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/parking-app/config/locales
+60055   ??  S      0:09.79 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/parking-app/db
+60056   ??  S      0:10.39 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/parking-app/app/assets
+60057   ??  S      0:09.63 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/parking-app/app/controllers
+60058   ??  S      0:09.19 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/parking-app/app/helpers
+60059   ??  S      0:09.09 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/parking-app/app/jobs
+60060   ??  S      0:08.25 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/parking-app/app/mailers
+60061   ??  S      0:08.39 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/parking-app/app/models
+60062   ??  S      0:08.77 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/parking-app/spec
+60063   ??  S      0:08.95 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/parking-app/app/channels
+60752   ??  S      0:00.56 spring server | api_exercise2 | started 313 hours ago   
+61370   ??  Ss     0:04.09 spring app    | api_exercise2 | started 312 hours ago | development mode      
+61373   ??  S      0:09.03 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.2 /Users/celery/api_exercise2
+61374   ??  S      0:08.58 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/api_exercise2/config/locales
+61375   ??  S      0:08.78 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/api_exercise2/db
+61376   ??  S      0:08.92 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/api_exercise2/app/assets
+61377   ??  S      0:08.03 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/api_exercise2/app/channels
+61378   ??  S      0:08.66 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/api_exercise2/app/controllers
+61379   ??  S      0:08.44 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/api_exercise2/app/helpers
+61380   ??  S      0:08.75 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/api_exercise2/app/jobs
+61381   ??  S      0:08.27 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/api_exercise2/app/mailers
+61382   ??  S      0:08.31 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/api_exercise2/app/models
+61383   ??  S      0:08.53 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/api_exercise2/app/uploaders
+61384   ??  S      0:08.56 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/api_exercise2/spec
+62339   ??  S      0:23.76 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+62342   ??  S      0:02.98 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+62389   ??  S      1:33.62 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+65529   ??  S    150:04.52 /Applications/Evernote.app/Contents/MacOS/Evernote
+65530   ??  S      2:09.96 /Applications/Evernote.app/Contents/Library/LoginItems/EvernoteHelper.app/Contents/MacOS/EvernoteHelper -psn_0_8234970
+66316   ??  Ss     0:00.51 /usr/libexec/captiveagent
+67463   ??  S      1:45.97 /Users/celery/Library/Application Support/amc/helperamc.app/Contents/MacOS/helperamc
+68256   ??  Ss     0:33.20 /System/Library/Frameworks/Foundation.framework/Versions/C/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+68593   ??  S     31:21.03 /Applications/Atom.app/Contents/MacOS/Atom --executed-from=/Users/celery/railsbridge/suggestotron2 --pid=68578 --path-environment=/Users/celery/.rvm/gems/ruby-2.3.1/bin:/Users/celery/.rvm/gems/ruby-2.3.1@global/bin:/Users/celery/.rvm/rubies/ruby-2.3.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/celery/.rvm/bin .
+68598   ??  S      1:46.22 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=gpu-process --no-sandbox --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,10,23,25,35,38,45,51,59,61,62,63,64,66,70,71,73,81,82,83,86,88,89 --gpu-vendor-id=0x8086 --gpu-device-id=0x162b --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --gpu-active-vendor-id=0x8086 --gpu-active-device-id=0x162b --service-request-channel-token=3029B473A555A4153ACDFA530837D281
+68601   ??  S      0:00.21 /Applications/Atom.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --database=/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/Atom Crashes --metrics-dir=/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/Atom Crashes --url=https://crashreporter.atom.io --handshake-fd=39
+68900   ??  S      0:00.44 spring server | suggestotron2 | started 195 hours ago   
+68901   ??  Ss     0:03.91 spring app    | suggestotron2 | started 195 hours ago | development mode      
+68902   ??  S      0:06.41 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.2 /Users/celery/railsbridge/suggestotron2
+68903   ??  S      0:06.62 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron2/config/locales
+68904   ??  S      0:06.83 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron2/db
+68905   ??  S      0:06.89 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron2/app/assets
+68906   ??  S      0:06.25 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron2/app/channels
+68907   ??  S      0:06.36 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron2/app/controllers
+68908   ??  S      0:06.05 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron2/app/helpers
+68909   ??  S      0:05.96 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron2/app/jobs
+68910   ??  S      0:05.79 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron2/app/mailers
+68911   ??  S      0:05.96 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron2/app/models
+68912   ??  S      0:05.80 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron2/test/mailers
+68942   ??  S<     0:00.12 /Applications/Atom.app/Contents/Frameworks/Squirrel.framework/Resources/ShipIt com.github.atom.ShipIt
+69569   ??  Ss     0:20.15 /System/Library/Frameworks/Foundation.framework/Versions/C/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+70127   ??  S      0:00.42 spring server | suggestotron3 | started 190 hours ago   
+70128   ??  Ss     0:02.69 spring app    | suggestotron3 | started 190 hours ago | development mode      
+70129   ??  S      0:05.70 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.2 /Users/celery/railsbridge/suggestotron3
+70130   ??  S      0:05.90 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron3/config/locales
+70131   ??  S      0:05.98 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron3/db
+70132   ??  S      0:05.66 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron3/app/controllers
+70133   ??  S      0:06.07 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron3/app/helpers
+70134   ??  S      0:05.33 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron3/app/jobs
+70135   ??  S      0:05.56 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron3/app/mailers
+70136   ??  S      0:05.34 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron3/app/models
+70137   ??  S      0:05.31 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron3/test/mailers
+70138   ??  S      0:05.35 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron3/app/assets
+70139   ??  S      0:05.08 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/railsbridge/suggestotron3/app/channels
+70766   ??  S      0:22.19 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=63D9359103DB3DE474A2ED09D27A0188 --lang=zh-CN --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration=true --disable-blink-features=Auxclick --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=63D9359103DB3DE474A2ED09D27A0188 --renderer-client-id=8
+71391   ??  S      0:21.37 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=14FC85FED4CD8826C996316BD105313B --lang=zh-CN --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration=true --disable-blink-features=Auxclick --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=14FC85FED4CD8826C996316BD105313B --renderer-client-id=10
+71514   ??  S      0:21.17 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=C1BCCD06F1F78DBAD572C4C11266BFA3 --lang=zh-CN --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration=true --disable-blink-features=Auxclick --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=C1BCCD06F1F78DBAD572C4C11266BFA3 --renderer-client-id=12
+71545   ??  S     78:12.18 /Applications/Atom.app/Contents/MacOS/Atom --executed-from=/Users/celery/demo --pid=71530 --path-environment=/Users/celery/.rvm/gems/ruby-2.3.1/bin:/Users/celery/.rvm/gems/ruby-2.3.1@global/bin:/Users/celery/.rvm/rubies/ruby-2.3.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/celery/.rvm/bin .
+71552   ??  S     14:02.83 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=gpu-process --no-sandbox --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,10,23,25,35,38,45,51,59,61,62,63,64,66,70,71,73,81,82,83,86,88,89 --gpu-vendor-id=0x8086 --gpu-device-id=0x162b --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --gpu-active-vendor-id=0x8086 --gpu-active-device-id=0x162b --service-request-channel-token=98A37DA2EB677843CCEBD3C16C85ED4F
+71554   ??  S      0:00.15 /Applications/Atom.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --database=/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/Atom Crashes --metrics-dir=/var/folders/2l/rsrh58ns44d9h3840sm31wlw0000gn/T/Atom Crashes --url=https://crashreporter.atom.io --handshake-fd=39
+71578   ??  S      0:21.20 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=CBC4612D613CB1C07F5F74DCF96B6261 --lang=zh-CN --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration=true --disable-blink-features=Auxclick --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=CBC4612D613CB1C07F5F74DCF96B6261 --renderer-client-id=14
+72286   ??  S      0:20.63 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=8A620C68FE5A81B83110E42700DA1940 --lang=zh-CN --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration=true --disable-blink-features=Auxclick --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=8A620C68FE5A81B83110E42700DA1940 --renderer-client-id=16
+72289   ??  S      0:20.67 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=31418D2022E925141C34A93D84BBD0D3 --lang=zh-CN --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration=true --disable-blink-features=Auxclick --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=31418D2022E925141C34A93D84BBD0D3 --renderer-client-id=18
+72380   ??  S      4:04.97 /Applications/Anki.app/Contents/MacOS/Anki
+73201   ??  S      0:00.64 spring server | rails110 | started 165 hours ago   
+76249   ??  S     12:38.89 /Applications/Dash.app/Contents/MacOS/Dash
+76252   ??  S      0:16.15 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app/Contents/MacOS/universalAccessAuthWarn launchd -s
+76365   ??  Ss     0:15.89 /System/Library/Frameworks/Foundation.framework/Versions/C/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+76565   ??  S      0:00.01 /System/Library/Frameworks/WebKit.framework/Frameworks/WebKitLegacy.framework/WebKitPluginAgent
+76805   ??  S      5:10.43 /Applications/wechatwebdevtools.app/Contents/MacOS/wechatwebdevtools
+76807   ??  S      0:00.17 /Applications/wechatwebdevtools.app/Contents/Versions/60.0.3112.113/nwjs Framework.framework/Helpers/crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/Users/celery/Library/Application Support/微信web开发者工具/Crashpad --metrics-dir=/Users/celery/Library/Application Support/微信web开发者工具 --annotation=plat=OS X --annotation=prod= --annotation=ver= --handshake-fd=7
+76809   ??  S      0:00.01 /Applications/wechatwebdevtools.app/Contents/Versions/60.0.3112.113/nwjs Framework.framework/Helpers/crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/Users/celery/Library/Application Support/微信web开发者工具/Crashpad --annotation=plat=OS X --annotation=prod= --annotation=ver= --handshake-fd=4
+76810   ??  S      0:41.58 /Applications/wechatwebdevtools.app/Contents/Versions/60.0.3112.113/wechatwebdevtools Helper.app/Contents/MacOS/wechatwebdevtools Helper --type=gpu-process --field-trial-handle=4970369197636223784,10548833070246670871,131072 --no-sandbox --user-data-dir=/Users/celery/Library/Application Support/微信web开发者工具 --nwapp-path=/Applications/wechatwebdevtools.app/Contents/Resources/app.nw --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,10,24,27,38,41,50,56,64,66,67,68,69,76,77,79,87,88,89,92,95,103 --disable-gl-extensions=GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent --gpu-vendor-id=0x8086 --gpu-device-id=0x162b --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --gpu-active-vendor-id=0x8086 --gpu-active-device-id=0x162b --user-data-dir=/Users/celery/Library/Application Support/微信web开发者工具 --nwapp-path=/Applications/wechatwebdevtools.app/Contents/Resources/app.nw --service-request-channel-token=6C752972117718C6D22D89194E344E7F
+76811   ??  S     10:27.58 /Applications/wechatwebdevtools.app/Contents/Versions/60.0.3112.113/wechatwebdevtools Helper.app/Contents/MacOS/wechatwebdevtools Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --no-zygote --field-trial-handle=4970369197636223784,10548833070246670871,131072 --service-pipe-token=4C63BD5B2C13CDB0FAAAF8A212A173EE --lang=zh-CN --user-data-dir=/Users/celery/Library/Application Support/微信web开发者工具 --nwapp-path=/Applications/wechatwebdevtools.app/Contents/Resources/app.nw --nwjs --extension-process --disable-client-side-phishing-detection --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true,cssExternalScannerNoPreload=false,cssExternalScannerPreload=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;0,16,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;1,16,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,34037;2,11,34037;2,12,34037;2,13,3553;2,14,3553;2,15,3553;2,16,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,34037;3,14,3553;3,15,34037;3,16,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,34037;4,13,34037;4,14,3553;4,15,34037;4,16,34037 --service-request-channel-token=4C63BD5B2C13CDB0FAAAF8A212A173EE --renderer-client-id=3
+77526   ??  Ss     0:15.38 /System/Library/Frameworks/Foundation.framework/Versions/C/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+79500   ??  Ss     0:04.35 spring app    | rails110 | started 122 hours ago | development mode      
+79501   ??  S      0:02.88 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.2 /Users/celery/rails110
+79502   ??  S      0:02.93 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails110/config/locales
+79503   ??  S      0:02.62 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails110/db
+79504   ??  S      0:03.01 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails110/app/assets
+79505   ??  S      0:03.05 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails110/app/channels
+79506   ??  S      0:03.05 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails110/app/helpers
+79507   ??  S      0:02.94 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails110/app/controllers
+79508   ??  S      0:02.71 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails110/app/jobs
+79509   ??  S      0:02.74 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails110/app/mailers
+79510   ??  S      0:02.76 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails110/app/models
+79511   ??  S      0:02.77 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails110/test/mailers
+79576   ??  S     14:45.81 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=3BECC74F5D56127DEB9C2DD600FFF302 --lang=zh-CN --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration=true --disable-blink-features=Auxclick --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=3BECC74F5D56127DEB9C2DD600FFF302 --renderer-client-id=16
+79597   ??  S      0:13.84 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=173E42D3F338ADEBDE6CC614012CC36A --lang=zh-CN --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration=true --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=173E42D3F338ADEBDE6CC614012CC36A --renderer-client-id=18
+81880   ??  S      0:22.80 /System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Resources/QuickLookUIHelper.app/Contents/MacOS/QuickLookUIHelper
+82375   ??  S      0:00.66 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent
+82376   ??  S      0:01.01 /usr/libexec/secinitd
+82383   ??  Ss     0:00.33 /usr/sbin/WirelessRadioManagerd
+82384   ??  Ss     0:01.28 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+82385   ??  Ss     0:07.74 /usr/libexec/trustd
+82388   ??  S      0:01.47 /usr/libexec/pkd
+82389   ??  S      0:00.23 /System/Library/CoreServices/pbs
+82395   ??  Ss     0:11.85 /usr/libexec/gamecontrollerd
+82398   ??  Ss     0:13.99 sysmond
+82419   ??  Ss     0:00.50 /usr/libexec/amfid
+82429   ??  Ss     0:01.27 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService
+82445   ??  S      0:00.86 /System/Library/CoreServices/iconservicesagent
+82460   ??  S      0:00.26 /System/Library/PrivateFrameworks/BookKit.framework/Versions/A/XPCServices/com.apple.BKAgentService.xpc/Contents/MacOS/com.apple.BKAgentService
+82461   ??  S      0:00.37 /System/Library/CoreServices/ScopedBookmarkAgent
+82463   ??  S      0:29.09 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+82464   ??  Ss     0:00.21 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService
+82465   ??  S      0:01.75 /usr/libexec/secd
+82466   ??  S      0:03.45 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+82468   ??  Ss     0:00.40 /usr/libexec/nehelper
+82469   ??  Ss     0:00.10 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+82470   ??  S      0:00.11 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd
+82471   ??  S      0:00.20 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+82486   ??  S      0:00.56 /usr/libexec/networkserviceproxy
+82517   ??  Ss     0:00.19 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+82536   ??  Ss     0:00.52 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+82537   ??  Ss     0:00.11 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+82539   ??  S      0:00.07 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+82543   ??  Ss     0:00.08 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+82547   ??  S      0:00.18 /System/Library/Frameworks/Security.framework/Versions/A/Resources/KeychainSyncingOverIDSProxy.bundle/Contents/MacOS/KeychainSyncingOverIDSProxy
+82552   ??  Ss     0:00.23 aslmanager
+82563   ??  Ss     0:07.03 /usr/sbin/spindump
+82564   ??  S      0:00.07 /usr/libexec/spindump_agent
+82567   ??  S      0:01.37 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+82569   ??  Ss     0:12.20 /usr/libexec/sandboxd
+82570   ??  Ss     0:00.84 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+82571   ??  Ss     0:04.22 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService
+82601   ??  Ss     0:00.10 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService
+82603   ??  S      0:08.02 /System/Library/PrivateFrameworks/ContactsAgent.framework/Executables/ContactsAgent
+82611   ??  Ss     0:01.17 /usr/libexec/mobileassetd
+82612   ??  S      0:03.52 /usr/libexec/WiFiVelocityAgent
+82613   ??  S      0:00.48 /System/Library/CoreServices/AppleIDAuthAgent
+82614   ??  Ss     0:00.43 /usr/libexec/wifivelocityd
+82616   ??  S      0:01.57 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+82632   ??  S      0:00.49 /System/Library/PrivateFrameworks/AssistantServices.framework/assistantd
+82633   ??  Ss     0:50.95 /usr/sbin/systemstats --xpc
+82665   ??  SNs    0:00.02 /usr/libexec/periodic-wrapper daily
+82670   ??  S      0:01.65 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+82671   ??  S      0:00.92 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+82672   ??  S      0:21.47 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+82673   ??  S      0:02.02 /System/Library/CoreServices/mapspushd
+82676   ??  S      0:16.41 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service
+82677   ??  Ss     0:00.52 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer
+82713   ??  Ss     0:00.20 /Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService
+82714   ??  S      0:03.71 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+82721   ??  Ss     0:00.26 /usr/libexec/AssetCache/AssetCache
+82722   ??  S      0:00.21 /System/Library/PrivateFrameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent
+82747   ??  S      0:00.33 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+82768   ??  Ss     0:00.03 /usr/libexec/DataDetectorsSourceAccess
+82858   ??  S      0:00.09 /System/Library/PrivateFrameworks/StorageManagement.framework/Resources/diskspaced
+82860   ??  Ss     0:00.14 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+82865   ??  S      0:00.14 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/XPCServices/com.apple.DictionaryServiceHelper.xpc/Contents/MacOS/com.apple.DictionaryServiceHelper
+82866   ??  Ss     0:00.08 /usr/libexec/nsurlstoraged
+82953   ??  S      0:00.13 /System/Library/PrivateFrameworks/GeoServices.framework/geodMachServiceBridge
+82959   ??  Ss     0:00.08 /System/Library/CoreServices/iconservicesd
+83105   ??  Ss     0:00.44 /usr/sbin/systemsoundserverd
+83106   ??  Ss     0:00.03 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+83200   ??  S      0:00.18 /System/Library/PrivateFrameworks/PrintingPrivate.framework/Versions/A/PrintUITool
+83557   ??  S      0:00.78 /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing
+83558   ??  S      0:00.13 /System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert
+83559   ??  S      0:02.18 /System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/XPCServices/com.apple.sbd.xpc/Contents/MacOS/com.apple.sbd
+83560   ??  S      0:00.04 /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd
+83562   ??  S      0:40.27 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+83835   ??  Ss     0:00.09 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService
+83875   ??  Ss     0:00.04 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/XPCServices/com.apple.cmio.registerassistantservice.xpc/Contents/MacOS/com.apple.cmio.registerassistantservice
+84250   ??  S      0:00.32 /usr/libexec/trustd --agent
+84451   ??  R     41:47.38 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+84453   ??  S      0:00.07 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Framework.framework/Helpers/crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --database=/Users/celery/Library/Application Support/Google/Chrome/Crashpad --metrics-dir=/Users/celery/Library/Application Support/Google/Chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=OS X --annotation=prod=Chrome_Mac --annotation=ver=62.0.3202.94 --handshake-fd=9
+84455   ??  S     13:26.27 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=gpu-process --field-trial-handle=9985720848522652470,6632031388167551050,131072 --gpu-vendor-id=0x8086 --gpu-device-id=0x162b --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --gpu-active-vendor-id=0x8086 --gpu-active-device-id=0x162b --service-request-channel-token=FAC52DFFFA9DD714C3C62B9BD3081877
+84456   ??  Ss     0:00.03 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Framework.framework/Versions/A/XPCServices/AlertNotificationService.xpc/Contents/MacOS/AlertNotificationService
+84458   ??  Ss     0:00.06 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+84460   ??  S      0:06.84 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --field-trial-handle=9985720848522652470,6632031388167551050,131072 --lang=zh-CN --service-request-channel-token=B90F3C62AD601061E3F40AB4E69A5EEE
+84462   ??  S      0:03.17 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=9985720848522652470,6632031388167551050,131072 --service-pipe-token=6CF569187A2B83AA47B21C4084A33D3D --lang=zh-CN --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=6CF569187A2B83AA47B21C4084A33D3D --renderer-client-id=4
+84463   ??  S      0:07.72 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=9985720848522652470,6632031388167551050,131072 --service-pipe-token=E876394A8E8CA7D470E8FFE6A1063EF2 --lang=zh-CN --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=E876394A8E8CA7D470E8FFE6A1063EF2 --renderer-client-id=5
+84464   ??  S      0:02.58 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=9985720848522652470,6632031388167551050,131072 --service-pipe-token=8E07C65C10089D442E43B6C3454C5B4D --lang=zh-CN --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=8E07C65C10089D442E43B6C3454C5B4D --renderer-client-id=6
+84465   ??  S      0:28.19 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=9985720848522652470,6632031388167551050,131072 --service-pipe-token=CB873FE9933A2DCD7DA7CC59446E9DCE --lang=zh-CN --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=CB873FE9933A2DCD7DA7CC59446E9DCE --renderer-client-id=7
+84535   ??  S      0:06.82 /System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper
+84635   ??  S     14:39.67 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=9985720848522652470,6632031388167551050,131072 --service-pipe-token=39DF69092CAA9EE4C501A661A77EFC02 --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=39DF69092CAA9EE4C501A661A77EFC02 --renderer-client-id=25
+84902   ??  S     15:43.06 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=9985720848522652470,6632031388167551050,131072 --service-pipe-token=BD0765B0DBA46F820EE2B8D948568A33 --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=BD0765B0DBA46F820EE2B8D948568A33 --renderer-client-id=28
+85136   ??  S      0:00.45 spring server | rails111 | started 49 hours ago   
+85905   ??  Ss     0:06.76 /System/Library/Frameworks/Foundation.framework/Versions/C/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+87299   ??  Ss     0:00.39 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+87434   ??  Ss     0:03.86 spring app    | rails111 | started 45 hours ago | development mode      
+87436   ??  S      0:01.23 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.2 /Users/celery/rails111
+87437   ??  S      0:01.09 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails111/config/locales
+87438   ??  S      0:01.10 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails111/db
+87439   ??  S      0:01.07 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails111/test/mailers
+87440   ??  S      0:01.13 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails111/app/assets
+87441   ??  S      0:01.16 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails111/app/channels
+87442   ??  S      0:01.14 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails111/app/controllers
+87443   ??  S      0:01.05 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails111/app/helpers
+87444   ??  S      0:01.10 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails111/app/jobs
+87445   ??  S      0:01.10 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails111/app/mailers
+87446   ??  S      0:01.10 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails111/app/models
+88224   ??  S      0:00.22 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+88471   ??  S      0:00.67 /Users/celery/Library/Application Support/ShadowsocksX-NG/ss-local-latest/ss-local -c ss-local-config.json
+88752   ??  S      0:03.83 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=84C0F1B68E60F91AE323DF7516A56B89 --lang=zh-CN --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration=true --disable-blink-features=Auxclick --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=84C0F1B68E60F91AE323DF7516A56B89 --renderer-client-id=20
+88753   ??  S      0:03.77 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=3E192BC37ACE47CDC12819CA2FFB1B8F --lang=zh-CN --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration=true --disable-blink-features=Auxclick --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=3E192BC37ACE47CDC12819CA2FFB1B8F --renderer-client-id=22
+88850   ??  S      0:06.80 /Applications/iBooks.app/Contents/MacOS/iBooks
+88851   ??  Ss     0:00.11 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService
+88856   ??  S      3:40.54 /Applications/Preview.app/Contents/MacOS/Preview -psn_0_10185142
+88857   ??  Ss     0:00.02 /Applications/Preview.app/Contents/XPCServices/com.apple.Preview.TrustedBookmarksService.xpc/Contents/MacOS/com.apple.Preview.TrustedBookmarksService
+89330   ??  S     21:16.03 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=5692F695397E3FF6BBD9401ECB24214E --lang=zh-CN --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration=true --disable-blink-features=Auxclick --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=5692F695397E3FF6BBD9401ECB24214E --renderer-client-id=36
+89350   ??  S      0:06.70 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=B6134739651582D9DE0AF2B2B59414DA --lang=zh-CN --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration=true --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=B6134739651582D9DE0AF2B2B59414DA --renderer-client-id=38
+89499   ??  S      0:00.99 /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History
+89505   ??  S      0:13.62 /usr/libexec/SafariCloudHistoryPushAgent
+89510   ??  S      0:00.03 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd
+89878   ??  S      0:11.22 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+89879   ??  S      0:11.69 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+89881   ??  S      0:24.53 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=9985720848522652470,6632031388167551050,131072 --service-pipe-token=C71CEF28EBBD55BC44B21FAEBF68E80A --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=C71CEF28EBBD55BC44B21FAEBF68E80A --renderer-client-id=96
+89882   ??  S      0:11.58 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+89883   ??  S      0:11.02 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+90226   ??  Ss     0:02.81 /System/Library/Frameworks/Foundation.framework/Versions/C/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+90372   ??  S      0:00.04 /usr/libexec/videosubscriptionsd
+90373   ??  S      0:00.08 /usr/libexec/swcd
+90440   ??  S      1:51.78 /Applications/WeChat.app/Contents/MacOS/WeChat
+90514   ??  SNs    0:00.20 /usr/sbin/netbiosd
+90518   ??  S      0:19.58 /Applications/wechatwebdevtools.app/Contents/Versions/60.0.3112.113/wechatwebdevtools Helper.app/Contents/MacOS/wechatwebdevtools Helper --type=utility --lang=zh-CN --ignore-certificate-errors --no-sandbox --user-data-dir=/Users/celery/Library/Application Support/微信web开发者工具 --nwapp-path=/Applications/wechatwebdevtools.app/Contents/Resources/app.nw --service-request-channel-token=F33DA17AB0A4E4B3BCB16A32F2EEDC41
+90810   ??  S      1:32.24 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=9985720848522652470,6632031388167551050,131072 --service-pipe-token=AF876955D407815F0276AF118B51D74B --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=AF876955D407815F0276AF118B51D74B --renderer-client-id=107
+91612   ??  S      0:16.11 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=9985720848522652470,6632031388167551050,131072 --service-pipe-token=B029203D2407174B7DD7ED7AD69ECEAB --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=B029203D2407174B7DD7ED7AD69ECEAB --renderer-client-id=122
+91847   ??  Ss     0:00.10 /usr/sbin/ocspd
+91985   ??  Ss     0:03.84 spring app    | rails112 | started 2 hours ago | development mode      
+91987   ??  S      0:00.25 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.2 /Users/celery/rails112
+91988   ??  S      0:00.14 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails112/config/locales
+91989   ??  S      0:00.14 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails112/db
+91990   ??  S      0:00.14 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails112/app/assets
+91991   ??  S      0:00.13 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails112/app/channels
+91992   ??  S      0:00.14 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails112/app/controllers
+91993   ??  S      0:00.13 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails112/app/helpers
+91994   ??  S      0:00.13 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails112/app/jobs
+91995   ??  S      0:00.13 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails112/app/mailers
+91996   ??  S      0:00.13 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails112/app/models
+91997   ??  S      0:00.12 /Users/celery/.rvm/gems/ruby-2.3.1/gems/rb-fsevent-0.10.2/bin/fsevent_watch --format=otnetstring --latency 0.1 /Users/celery/rails112/test/mailers
+92023   ??  R     13:49.65 puma 3.11.0 (tcp://0.0.0.0:3000) [rails112]  
+92025   ??  Z      0:00.00 (fsevent_watch)
+92026   ??  Z      0:00.00 (fsevent_watch)
+92027   ??  Z      0:00.00 (fsevent_watch)
+92028   ??  Z      0:00.00 (fsevent_watch)
+92029   ??  Z      0:00.00 (fsevent_watch)
+92030   ??  Z      0:00.00 (fsevent_watch)
+92031   ??  Z      0:00.00 (fsevent_watch)
+92032   ??  Z      0:00.00 (fsevent_watch)
+92033   ??  Z      0:00.00 (fsevent_watch)
+92519   ??  S      0:00.08 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+92558   ??  S      0:00.08 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+92559   ??  S      0:00.07 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+92707   ??  S      0:00.19 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+92708   ??  S      0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+92941   ??  S      0:03.42 /Applications/Notes.app/Contents/MacOS/Notes
+92943   ??  S      0:00.12 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+92944   ??  S      0:00.11 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+93021   ??  S      0:00.05 /System/Library/PrivateFrameworks/CoreSpotlight.framework/Support/com.apple.spotlight.IndexAgent
+93022   ??  S      0:31.61 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=9985720848522652470,6632031388167551050,131072 --service-pipe-token=FBF2FBD4097EBE86AE9A2E1658F1D88C --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=FBF2FBD4097EBE86AE9A2E1658F1D88C --renderer-client-id=131
+93078   ??  S      0:16.52 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=9985720848522652470,6632031388167551050,131072 --service-pipe-token=DB1D16E00B7B5B6B60D2ACAB65102527 --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=DB1D16E00B7B5B6B60D2ACAB65102527 --renderer-client-id=135
+93124   ??  S      0:00.11 /System/Library/Frameworks/QuickLook.framework/Resources/quicklookd.app/Contents/MacOS/quicklookd
+89109 s002  Ss     0:00.05 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server login -fp celery
+89110 s002  S      0:00.04 login -fp celery
+89111 s002  S      0:01.49 -zsh
+89672 s002  S      0:00.39 spring server | rails112 | started 24 hours ago   
+93126 s002  R+     0:00.00 ps ax
+93127 s002  S+     0:00.00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn rails
+93128 s002  S+     0:00.00 -zsh
